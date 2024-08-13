@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#left-column{
+    width: 60%;
+    float: left;
+    background-color: burlywood;
+}
+
+#right-column img{
+    width: 550px;
+    margin-left: 40px; /* So the stickman is not sitting in the left column */
+    margin-top: 100px; /* Leave space between stickman and top of screen */
+}
+
+img#logo{ /* Style any img with id of logo */
+    position: fixed;
+    width: 150px;
+    bottom: 20px;
+    right: 10px; /* affects bottom/right of screen */
+}
